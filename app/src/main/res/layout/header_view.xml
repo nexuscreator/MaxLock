@@ -9,16 +9,18 @@
 
     <TextView
         android:id="@+id/title_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/title_margin_bottom"
         android:layout_marginLeft="@dimen/title_margin_sides"
         android:layout_marginRight="@dimen/title_margin_sides"
         android:layout_marginTop="36dp"
-        android:drawablePadding="20dp"
+        android:drawablePadding="8dp"
         android:maxLines="2"
         android:textColor="?android:textColorPrimary"
-        android:textSize="36sp"
+        android:textSize="25sp"
         tools:drawableLeft="@mipmap/ic_launcher"
         tools:drawableStart="@mipmap/ic_launcher"
         tools:text="@string/placeholder" />
